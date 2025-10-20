@@ -38,7 +38,7 @@ This graduate thesis project evaluates multiple LLM-based approaches for automat
 ## Project Structure
 ```
 event-extraction-llm-comparison/
-├── final_hybrid_extraction.py      # Main hybrid approach (RECOMMENDED)
+├── final_hybrid_extraction.py      # Main hybrid approach
 ├── ollama_event_extraction.py      # Pure Mixtral extraction
 ├── gpt_comparison_test.py          # OpenAI GPT testing
 ├── gemini_comparison_test.py       # Google Gemini testing
