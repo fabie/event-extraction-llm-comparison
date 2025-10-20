@@ -1,8 +1,8 @@
-# Event Extraction from Social Media Posts
+# Event Extraction from Social Media Posts 
 
-A comprehensive comparison of Large Language Model approaches for extracting structured event information (event name, venue, datetime) from Reddit posts about local events in Denver, Austin, and Daytona Beach.
+A comprehensive comparison of Large Language Model approaches for extracting structured event information (event name, venue, datetime) from Reddit posts about local events in Denver, CO Austin, TX and Daytona Beach, FL.
 
-## 🎯 Project Overview
+## PROJECT OVERVIEW
 
 This graduate thesis project evaluates multiple LLM-based approaches for automated event extraction:
 - **Local Mixtral** (via Ollama) + Pattern Matching Hybrid
@@ -38,14 +38,14 @@ This graduate thesis project evaluates multiple LLM-based approaches for automat
 ## Project Structure
 ```
 event-extraction-llm-comparison/
-├── **final_hybrid_extraction.py**      # Main hybrid approach (RECOMMENDED)
-├── **ollama_event_extraction.py**      # Pure Mixtral extraction
-├── **gpt_comparison_test.py**          # OpenAI GPT testing
-├── **gemini_comparison_test.py**       # Google Gemini testing
+├── final_hybrid_extraction.py      # Main hybrid approach (RECOMMENDED)
+├── ollama_event_extraction.py      # Pure Mixtral extraction
+├── gpt_comparison_test.py          # OpenAI GPT testing
+├── gemini_comparison_test.py       # Google Gemini testing
+├── spacy_training_data.json        # Training examples for NER
 ├── debug_ollama.py                 # Mixtral debugging utilities (NOT INCLUDED)
 ├── debug_gemini.py                 # Gemini debugging utilities (NOT INCLUDED)
-├── test_openai.py                  # OpenAI API testing
-├── **spacy_training_data.json**        # Training examples for NER
+├── test_openai.py                  # OpenAI API testing (NOT INCLUDED)
 └── gold_standard_200_events.csv    # Ground truth dataset (NOT INCLUDED)
 ```
 
@@ -130,7 +130,6 @@ The evaluation uses 200 manually verified event posts from:
 - **Temperature**: 0
 
 ## Troubleshooting
-
 ### Common Issues
 
 **Ollama not responding**
