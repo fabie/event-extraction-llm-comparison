@@ -1,0 +1,37 @@
+pandas>=1.5.0
+   requests>=2.28.0
+   google-generativeai>=0.3.0
+   openai>=1.0.0
+```
+3. Commit with message: "Add requirements file"
+
+**For .gitignore:**
+1. Name: `.gitignore`
+2. Paste:
+```
+   # Data files
+   *.csv
+   gold_standard_*.csv
+
+   # API keys
+   .env
+   *.key
+
+   # Python
+   __pycache__/
+   *.py[cod]
+   *$py.class
+   *.so
+   .Python
+   venv/
+   env/
+
+   # IDEs
+   .vscode/
+   .idea/
+   *.swp
+   *.swo
+
+   # OS
+   .DS_Store
+   Thumbs.db
