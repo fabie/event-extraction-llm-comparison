@@ -11,7 +11,7 @@ This graduate thesis project evaluates multiple LLM-based approaches for automat
 
 **Best Result**: Hybrid approach achieved **90% accuracy** with zero API costs using local Mixtral inference combined with regex patterns.
 
-## 📊 Key Findings
+## Key Findings
 
 | Approach | Accuracy | Cost | Speed |
 |----------|----------|------|-------|
@@ -21,7 +21,7 @@ This graduate thesis project evaluates multiple LLM-based approaches for automat
 
 *Estimated based on limited testing
 
-## 🏗️ Architecture
+## Architecture
 
 ### Hybrid Extraction Pipeline
 ```python
@@ -38,14 +38,14 @@ This graduate thesis project evaluates multiple LLM-based approaches for automat
 ## 📁 Project Structure
 ```
 event-extraction-llm-comparison/
-├── final_hybrid_extraction.py      # Main hybrid approach (RECOMMENDED)
-├── ollama_event_extraction.py      # Pure Mixtral extraction
-├── gpt_comparison_test.py          # OpenAI GPT testing
-├── gemini_comparison_test.py       # Google Gemini testing
+├── **final_hybrid_extraction.py**      # Main hybrid approach (RECOMMENDED)
+├── **ollama_event_extraction.py**      # Pure Mixtral extraction
+├── **gpt_comparison_test.py**          # OpenAI GPT testing
+├── **gemini_comparison_test.py**       # Google Gemini testing
 ├── debug_ollama.py                 # Mixtral debugging utilities
 ├── debug_gemini.py                 # Gemini debugging utilities
 ├── test_openai.py                  # OpenAI API testing
-├── spacy_training_data.json        # Training examples for NER
+├── **spacy_training_data.json**        # Training examples for NER
 └── gold_standard_200_events.csv    # Ground truth dataset (NOT INCLUDED)
 ```
 
