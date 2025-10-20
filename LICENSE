@@ -1,21 +1,151 @@
-MIT License
+================================================================================
+                              COPYRIGHT NOTICE
+================================================================================
 
-Copyright (c) 2025 fabie
+Event Extraction from Social Media Posts: LLM Performance Comparison
+Copyright (c) 2025 Fabienne Van Cappel. All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Author: Fabienne Van Cappel
+Email: fabienne.vancappel@gmail.com
+Date: October 2025
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+================================================================================
+                                  LICENSE
+================================================================================
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This software and associated documentation (the "Software") is protected by copyright law and international treaties. Unauthorized reproduction or 
+distribution of this Software, or any portion of it, may result in severe 
+civil and criminal penalties, and will be prosecuted to the maximum extent 
+possible under the law.
+
+GRANT OF LICENSE:
+This Software is part of a graduate thesis project and is made available for
+academic and research purposes only. 
+
+PERMITTED USES:
+- Academic research and education
+- Reference for similar research projects
+- Evaluation and comparison for academic purposes
+- Citation in academic publications (with proper attribution)
+
+PROHIBITED USES:
+- Commercial use or exploitation without written permission
+- Redistribution or republication without attribution
+- Modification and distribution without permission
+- Use in production systems without licensing agreement
+- Removal or alteration of copyright notices
+
+RESTRICTIONS:
+1. You may not use this Software for commercial purposes without obtaining
+   a separate commercial license from the copyright holder.
+
+2. You may not remove or alter any copyright notices, author attribution,
+   or license information contained in the Software.
+
+3. If you use this Software or methods described herein in academic 
+   publications, you must provide appropriate citation.
+
+4. The training data and evaluation datasets are not included in this
+   repository due to privacy and copyright concerns. Users must obtain
+   their own data for testing and evaluation.
+
+================================================================================
+                              DISCLAIMER
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+                             DATA PRIVACY NOTICE
+================================================================================
+
+This project was developed using publicly available social media data from
+Reddit. The training dataset is NOT included in this repository to protect
+user privacy and comply with copyright regulations.
+
+Users of this Software are responsible for:
+- Ensuring compliance with applicable data protection laws
+- Respecting copyright and intellectual property rights
+- Obtaining proper permissions for any data they process
+- Following ethical guidelines for web scraping and data collection
+
+================================================================================
+                            THIRD-PARTY SERVICES
+================================================================================
+
+This Software interfaces with third-party services that have their own terms
+of service and usage policies:
+
+1. Ollama (https://ollama.com)
+   - Open-source local LLM inference
+   - Subject to Ollama's license terms
+
+2. OpenAI API (https://openai.com)
+   - Subject to OpenAI's Terms of Use
+   - Usage may incur costs
+   - Users must obtain their own API keys
+
+3. Google Gemini API (https://ai.google.dev)
+   - Subject to Google's Terms of Service
+   - Free tier available with limitations
+   - Users must obtain their own API keys
+
+Users are responsible for complying with all third-party terms of service.
+
+================================================================================
+                                 CITATION
+================================================================================
+
+If you use this Software or reference the methods described herein in 
+academic publications, please cite as follows:
+
+    Van Cappel, F. (2025). Event Extraction from Social Media Posts: 
+    A Comparative Analysis of LLM Approaches. Graduate Thesis.
+    [GitHub Repository URL]
+
+BibTeX:
+    @mastersthesis{vancappel2025event,
+      author = {Van Cappel, Fabienne},
+      title = {Event Extraction from Social Media Posts: A Comparative 
+               Analysis of LLM Approaches},
+      year = {2025},
+      school = {[Your University Name]},
+      note = {Available at: [GitHub Repository URL]}
+    }
+
+================================================================================
+                          CONTACT INFORMATION
+================================================================================
+
+For licensing inquiries, permissions, or questions about this Software:
+
+    Fabienne Van Cappel
+    Email: fabienne.vancappel@gmail.com
+
+For commercial licensing opportunities, please contact the author via email
+with subject line: "Commercial License Inquiry - Event Extraction Software"
+
+================================================================================
+                           ACKNOWLEDGMENTS
+================================================================================
+
+This project was developed as part of a graduate thesis and would not have
+been possible without:
+
+- The open-source community for tools like Ollama and Python libraries
+- Reddit communities (r/Denver, r/Austin, r/DaytonaBeach) for event data
+- OpenAI and Google for providing API access for research purposes
+- Academic advisors and reviewers for their guidance
+
+================================================================================
+                          VERSION INFORMATION
+================================================================================
+
+Version: 1.0
+Release Date: 12 October 2025
+Last Updated: 2025
+
+================================================================================
+                         END OF COPYRIGHT NOTICE
+================================================================================
