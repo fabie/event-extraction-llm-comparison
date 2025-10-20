@@ -42,14 +42,12 @@ event-extraction-llm-comparison/
 ├── **ollama_event_extraction.py**      # Pure Mixtral extraction
 ├── **gpt_comparison_test.py**          # OpenAI GPT testing
 ├── **gemini_comparison_test.py**       # Google Gemini testing
-├── debug_ollama.py                 # Mixtral debugging utilities
-├── debug_gemini.py                 # Gemini debugging utilities
+├── debug_ollama.py                 # Mixtral debugging utilities (NOT INCLUDED)
+├── debug_gemini.py                 # Gemini debugging utilities (NOT INCLUDED)
 ├── test_openai.py                  # OpenAI API testing
 ├── **spacy_training_data.json**        # Training examples for NER
 └── gold_standard_200_events.csv    # Ground truth dataset (NOT INCLUDED)
 ```
-
-## Quick Start
 
 ### Prerequisites
 ```bash
