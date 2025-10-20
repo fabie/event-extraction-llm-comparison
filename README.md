@@ -35,7 +35,7 @@ This graduate thesis project evaluates multiple LLM-based approaches for automat
 - Venue: "at [Location]" or "@[Location]" patterns
 - DateTime: Day names + date formats
 
-## 📁 Project Structure
+## Project Structure
 ```
 event-extraction-llm-comparison/
 ├── **final_hybrid_extraction.py**      # Main hybrid approach (RECOMMENDED)
@@ -49,7 +49,7 @@ event-extraction-llm-comparison/
 └── gold_standard_200_events.csv    # Ground truth dataset (NOT INCLUDED)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -80,7 +80,7 @@ python gpt_comparison_test.py
 python gemini_comparison_test.py
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Hybrid Extraction
 ```python
@@ -102,7 +102,7 @@ extractor = GPTEventExtractor(api_key="your-key")
 result = extractor.extract_with_gpt(text)
 ```
 
-## 📊 Dataset
+## Dataset
 
 The evaluation uses 200 manually verified event posts from:
 - **Denver** (r/Denver)
@@ -115,7 +115,7 @@ The evaluation uses 200 manually verified event posts from:
 - `verified_venue`: Ground truth venue (optional)
 - `datetime`: Ground truth date/time (optional)
 
-## 🔧 Configuration
+## Configuration
 
 ### Ollama Settings
 - **Model**: mixtral
@@ -131,7 +131,7 @@ The evaluation uses 200 manually verified event posts from:
 - **Model**: gemini-1.5-flash (updated from deprecated gemini-pro)
 - **Temperature**: 0
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -153,14 +153,14 @@ ollama serve
 - OpenAI: Monitor usage to avoid charges
 - Mixtral: No limits (local inference)
 
-## 📈 Performance Optimization
+## Performance Optimization
 
 1. **Batch Processing**: Process multiple texts in parallel
 2. **Caching**: Store Mixtral results to avoid re-inference
 3. **Pattern Priority**: Check simple patterns before LLM inference
 4. **Timeout Handling**: Set reasonable timeouts for API calls
 
-## 🔬 Evaluation Methodology
+## Evaluation Methodology
 
 Accuracy calculated as:
 ```
@@ -169,7 +169,7 @@ Correct = (extracted event overlaps with verified event)
 Accuracy = Correct / Total × 100%
 ```
 
-## 🚨 Important Notes
+## Important Notes
 
 ### Copyright & Ethics
 - This code is part of a graduate thesis project
@@ -188,7 +188,7 @@ Accuracy = Correct / Total × 100%
 - Multi-event posts may extract only first event
 - Date parsing is basic (no full NLP datetime resolution)
 
-## 📝 Citation
+## Citation
 
 If you use this work, please cite:
 ```
@@ -196,13 +196,13 @@ Fabienne Van Cappel (2025). Event Extraction from Social Media Posts:
 A Comparative Analysis of LLM Approaches. Graduate Thesis.
 ```
 
-## 📧 Contact
+## Contact
 
 **Author**: Fabienne Van Cappel  
 **Email**: fabienne.vancappel@gmail.com  
 **Year**: 2025
 
-## 📜 License
+## License
 
 Copyright © 2025 Fabienne Van Cappel. All Rights Reserved.
 
@@ -210,7 +210,7 @@ This code is part of a graduate thesis project. Unauthorized use, reproduction, 
 
 For licensing inquiries, contact: fabienne.vancappel@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Ollama** for local LLM inference
 - **OpenAI** for GPT API access
